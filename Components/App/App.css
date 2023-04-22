@@ -1,0 +1,52 @@
+body,
+html,
+#root {
+  height: 100%;
+}
+
+html {
+  font-size: 18px;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.00rem;
+  color: #fff;
+}
+
+h1 .highlight {
+  color: #6c41ec;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.55rem;
+  color: white;
+}
+
+.App {
+  height: 100%;
+  padding: 12% 40% 40% 45%;
+  background-image: url('../Assests/background_photo.jpg');
+
+  background-size:cover;
+  background-position:left;
+  background-repeat: no-repeat;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 500;
+ 
+}
+
+.App-playlist {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+@media only screen and (max-width: 1020px) {
+  .App-playlist {
+    align-items: center;
+    flex-direction: column;
+  }
+}
